@@ -11,6 +11,11 @@ When I tried to push again, (after doing add, commit of course), I got the above
 
 Solution -
 
+Always check this file before push code in repo
+vi .git/config
+to find out the branch head
+
+
  1. git checkout **my_branch**
  2. git add, commit your changes.
  3. git pull origin **my_branch** (not origin, master, or develop)

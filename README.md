@@ -8,6 +8,7 @@ Scenario -
 I pushed my_branch to origin successfully.
 I made few more changes.
 When I tried to push again, (after doing add, commit of course), I got the above mentioned error.
+
 Solution -
 
  1. git checkout **my_branch**
